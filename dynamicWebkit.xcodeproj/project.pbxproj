@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4994E651C536E9200AD44AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4994E641C536E9200AD44AA /* main.m */; };
+		F4994E681C536E9200AD44AA /* DWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4994E671C536E9200AD44AA /* DWKAppDelegate.m */; };
+		F4994E701C536E9200AD44AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4994E6F1C536E9200AD44AA /* Assets.xcassets */; };
+		F4994E731C536E9200AD44AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4994E711C536E9200AD44AA /* LaunchScreen.storyboard */; };
+		F4994E7D1C536F8000AD44AA /* DWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4994E7C1C536F8000AD44AA /* DWKWebViewController.m */; };
+		F4994E801C536F9100AD44AA /* DWKWebkitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4994E7F1C536F9100AD44AA /* DWKWebkitViewController.m */; };
+		F4994E831C53709A00AD44AA /* Excalibur.m in Sources */ = {isa = PBXBuildFile; fileRef = F4994E821C53709A00AD44AA /* Excalibur.m */; };
+		F4994E851C5379D100AD44AA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4994E841C5379D100AD44AA /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4994E601C536E9200AD44AA /* dynamicWebkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicWebkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4994E641C536E9200AD44AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4994E661C536E9200AD44AA /* DWKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWKAppDelegate.h; sourceTree = "<group>"; };
+		F4994E671C536E9200AD44AA /* DWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWKAppDelegate.m; sourceTree = "<group>"; };
+		F4994E6F1C536E9200AD44AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4994E721C536E9200AD44AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4994E741C536E9200AD44AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4994E7A1C536F2500AD44AA /* DWKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKProtocol.h; sourceTree = "<group>"; };
+		F4994E7B1C536F8000AD44AA /* DWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKWebViewController.h; sourceTree = "<group>"; };
+		F4994E7C1C536F8000AD44AA /* DWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWKWebViewController.m; sourceTree = "<group>"; };
+		F4994E7E1C536F9100AD44AA /* DWKWebkitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWKWebkitViewController.h; sourceTree = "<group>"; };
+		F4994E7F1C536F9100AD44AA /* DWKWebkitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWKWebkitViewController.m; sourceTree = "<group>"; };
+		F4994E811C53709A00AD44AA /* Excalibur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Excalibur.h; sourceTree = "<group>"; };
+		F4994E821C53709A00AD44AA /* Excalibur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Excalibur.m; sourceTree = "<group>"; };
+		F4994E841C5379D100AD44AA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4994E5D1C536E9200AD44AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4994E851C5379D100AD44AA /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4994E571C536E9200AD44AA = {
+			isa = PBXGroup;
+			children = (
+				F4994E841C5379D100AD44AA /* WebKit.framework */,
+				F4994E621C536E9200AD44AA /* dynamicWebkit */,
+				F4994E611C536E9200AD44AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4994E611C536E9200AD44AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4994E601C536E9200AD44AA /* dynamicWebkit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4994E621C536E9200AD44AA /* dynamicWebkit */ = {
+			isa = PBXGroup;
+			children = (
+				F4994E811C53709A00AD44AA /* Excalibur.h */,
+				F4994E821C53709A00AD44AA /* Excalibur.m */,
+				F4994E661C536E9200AD44AA /* DWKAppDelegate.h */,
+				F4994E671C536E9200AD44AA /* DWKAppDelegate.m */,
+				F4994E7A1C536F2500AD44AA /* DWKProtocol.h */,
+				F4994E7B1C536F8000AD44AA /* DWKWebViewController.h */,
+				F4994E7C1C536F8000AD44AA /* DWKWebViewController.m */,
+				F4994E7E1C536F9100AD44AA /* DWKWebkitViewController.h */,
+				F4994E7F1C536F9100AD44AA /* DWKWebkitViewController.m */,
+				F4994E6F1C536E9200AD44AA /* Assets.xcassets */,
+				F4994E711C536E9200AD44AA /* LaunchScreen.storyboard */,
+				F4994E741C536E9200AD44AA /* Info.plist */,
+				F4994E631C536E9200AD44AA /* Supporting Files */,
+			);
+			path = dynamicWebkit;
+			sourceTree = "<group>";
+		};
+		F4994E631C536E9200AD44AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4994E641C536E9200AD44AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4994E5F1C536E9200AD44AA /* dynamicWebkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4994E771C536E9200AD44AA /* Build configuration list for PBXNativeTarget "dynamicWebkit" */;
+			buildPhases = (
+				F4994E5C1C536E9200AD44AA /* Sources */,
+				F4994E5D1C536E9200AD44AA /* Frameworks */,
+				F4994E5E1C536E9200AD44AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dynamicWebkit;
+			productName = dynamicWebkit;
+			productReference = F4994E601C536E9200AD44AA /* dynamicWebkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4994E581C536E9200AD44AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.test.cendy;
+				TargetAttributes = {
+					F4994E5F1C536E9200AD44AA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F4994E5B1C536E9200AD44AA /* Build configuration list for PBXProject "dynamicWebkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4994E571C536E9200AD44AA;
+			productRefGroup = F4994E611C536E9200AD44AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4994E5F1C536E9200AD44AA /* dynamicWebkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4994E5E1C536E9200AD44AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4994E731C536E9200AD44AA /* LaunchScreen.storyboard in Resources */,
+				F4994E701C536E9200AD44AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4994E5C1C536E9200AD44AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4994E7D1C536F8000AD44AA /* DWKWebViewController.m in Sources */,
+				F4994E801C536F9100AD44AA /* DWKWebkitViewController.m in Sources */,
+				F4994E681C536E9200AD44AA /* DWKAppDelegate.m in Sources */,
+				F4994E651C536E9200AD44AA /* main.m in Sources */,
+				F4994E831C53709A00AD44AA /* Excalibur.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4994E711C536E9200AD44AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4994E721C536E9200AD44AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4994E751C536E9200AD44AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4994E761C536E9200AD44AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4994E781C536E9200AD44AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = dynamicWebkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.dynamicWebkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4994E791C536E9200AD44AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = dynamicWebkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.dynamicWebkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4994E5B1C536E9200AD44AA /* Build configuration list for PBXProject "dynamicWebkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4994E751C536E9200AD44AA /* Debug */,
+				F4994E761C536E9200AD44AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4994E771C536E9200AD44AA /* Build configuration list for PBXNativeTarget "dynamicWebkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4994E781C536E9200AD44AA /* Debug */,
+				F4994E791C536E9200AD44AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4994E581C536E9200AD44AA /* Project object */;
+}
